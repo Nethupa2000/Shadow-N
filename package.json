@@ -5,8 +5,8 @@
   "main": "start.js",
   "scripts": {
     "start": "pm2 start start.js --deep-monitoring --attach --name ASITHA-MD",
-    "stop": "pm2 stop ASITHA-MD",
-    "restart": "pm2 restart ASITHA-MD"
+    "stop": "pm2 stop SHADOW-N",
+    "restart": "pm2 restart SHADOW-N"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
